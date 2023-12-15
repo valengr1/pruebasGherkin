@@ -21,10 +21,8 @@ public class AgregarClienteStepDefinitions {
         for (Map<String, String> fila : tabla) {
             int numero = Integer.parseInt(fila.get("numero"));
             String fecha = fila.get("fecha");
-            String estado = fila.get("estado");
             v.setNumero(numero);
             v.setFecha(fecha);
-            v.setEstado(estado);
         }
     }
 
